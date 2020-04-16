@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Text" parent="TextAppearance.AppCompat">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+    </style>
+
+    <style name="Text.Nama">
+        <item name="android:textSize">@dimen/text_nama</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Gray">
+        <item name="android:textSize">@dimen/text_gray</item>
+        <item name="android:textColor">@color/textGray</item>
+    </style>
+
+    <style name="TableRow" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:height">8dp</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:textSize">@dimen/textSize_table</item>
+    </style>
+
+    <style name="TableColSatu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/table_margin</item>
+        <item name="android:layout_marginEnd">@dimen/table_margin</item>
+    </style>
+
+    <style name="TableColDua">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/textBlack</item>
+    </style>
+</resources>

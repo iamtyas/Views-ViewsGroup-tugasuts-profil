@@ -1,0 +1,2 @@
+rootProject.name='uts-profil'
+include ':app'
